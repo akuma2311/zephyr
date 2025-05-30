@@ -197,7 +197,7 @@
     }(o);
     function r(e, n, t) {
       var o = e.appendChild(document.createElement("div"));
-      o.classList.add("guify-component-container");
+      o.classList.add("sunrisify-component-container");
       (0, i.default)(o, {
         position: "relative",
         "min-height": t.sizing.componentHeight,
@@ -1974,7 +1974,7 @@
         value: function () {
           var e = this;
           this.container = document.createElement("div");
-          this.container.classList.add(v["guify-container"]);
+          this.container.classList.add(v["sunrisify-container"]);
           var n = {};
           if (this.opts.barMode == "overlay" || this.opts.barMode == "above" || this.opts.barMode == "none") {
             n.position = "absolute";
@@ -2501,7 +2501,7 @@
         }
         u.input = u.container.appendChild(document.createElement("input"));
         u.input.type = "range";
-        u.input.className = d["guify-range"];
+        u.input.className = d["sunrisify-range"];
         if (o.label) {
           u.input.setAttribute("aria-label", o.label + " input");
         }
@@ -2633,7 +2633,7 @@
           value: Object.freeze(n)
         }
       }));
-    }(["\n\ninput[type=range].guify-range {\n    -webkit-appearance: none;\n    width: 100%;\n    height: ", ";\n    margin: 0px 0;\n    padding: 0;\n    display: inline-block;\n}\n\n/* Remove outlines since we'll be adding our own */\ninput[type=range].guify-range:focus {\n    outline: none;\n}\ninput[type=range].guify-range::-moz-focus-outer {\n    border: 0;\n}\n\n/* Webkit */\ninput[type=range].guify-range::-webkit-slider-runnable-track {\n    width: 100%;\n    height: ", ";\n    cursor: ew-resize;\n    background: ", ";\n}\ninput[type=range].guify-range::-webkit-slider-thumb {\n    height: ", ";\n    width: 10px;\n    background: ", ";\n    cursor: ew-resize;\n    -webkit-appearance: none;\n    margin-top: 0px;\n}\ninput[type=range].guify-range:focus::-webkit-slider-runnable-track {\n    background: ", ";\n    outline: none;\n}\n\n/* Gecko */\ninput[type=range].guify-range::-moz-range-track {\n    width: 100%;\n    height: ", ";\n    cursor: ew-resize;\n    background: ", ";\n}\ninput[type=range].guify-range:focus::-moz-range-track {\n    background: ", ";\n}\ninput[type=range].guify-range::-moz-range-thumb {\n    height: ", ";\n    width: 10px;\n    background: ", ";\n    cursor: ew-resize;\n    border: none;\n    border-radius: 0;\n}\n\n/* IE */\ninput[type=range].guify-range::-ms-track {\n    width: 100%;\n    height: ", ";\n    cursor: ew-resize;\n    background: transparent;\n    border-color: transparent;\n    color: transparent;\n}\ninput[type=range].guify-range::-ms-fill-lower {\n    background: ", ";\n}\ninput[type=range].guify-range::-ms-fill-upper {\n    background: ", ";\n}\ninput[type=range].guify-range:focus::-ms-fill-lower {\n    background: ", ";\n}\ninput[type=range].guify-range:focus::-ms-fill-upper {\n    background: ", ";\n}\ninput[type=range].guify-range::-ms-thumb {\n    width: 10px;\n    border-radius: 0px;\n    background: ", ";\n    cursor: ew-resize;\n    height: ", ";\n}\ninput[type=range].guify-range:focus::-ms-fill-lower {\n    background: ", ";\n    outline: none;\n}\ninput[type=range].guify-range:focus::-ms-fill-upper {\n    background: ", ";\n    outline: none;\n}\n\n"], ["\n\ninput[type=range].guify-range {\n    -webkit-appearance: none;\n    width: 100%;\n    height: ", ";\n    margin: 0px 0;\n    padding: 0;\n    display: inline-block;\n}\n\n/* Remove outlines since we'll be adding our own */\ninput[type=range].guify-range:focus {\n    outline: none;\n}\ninput[type=range].guify-range::-moz-focus-outer {\n    border: 0;\n}\n\n/* Webkit */\ninput[type=range].guify-range::-webkit-slider-runnable-track {\n    width: 100%;\n    height: ", ";\n    cursor: ew-resize;\n    background: ", ";\n}\ninput[type=range].guify-range::-webkit-slider-thumb {\n    height: ", ";\n    width: 10px;\n    background: ", ";\n    cursor: ew-resize;\n    -webkit-appearance: none;\n    margin-top: 0px;\n}\ninput[type=range].guify-range:focus::-webkit-slider-runnable-track {\n    background: ", ";\n    outline: none;\n}\n\n/* Gecko */\ninput[type=range].guify-range::-moz-range-track {\n    width: 100%;\n    height: ", ";\n    cursor: ew-resize;\n    background: ", ";\n}\ninput[type=range].guify-range:focus::-moz-range-track {\n    background: ", ";\n}\ninput[type=range].guify-range::-moz-range-thumb {\n    height: ", ";\n    width: 10px;\n    background: ", ";\n    cursor: ew-resize;\n    border: none;\n    border-radius: 0;\n}\n\n/* IE */\ninput[type=range].guify-range::-ms-track {\n    width: 100%;\n    height: ", ";\n    cursor: ew-resize;\n    background: transparent;\n    border-color: transparent;\n    color: transparent;\n}\ninput[type=range].guify-range::-ms-fill-lower {\n    background: ", ";\n}\ninput[type=range].guify-range::-ms-fill-upper {\n    background: ", ";\n}\ninput[type=range].guify-range:focus::-ms-fill-lower {\n    background: ", ";\n}\ninput[type=range].guify-range:focus::-ms-fill-upper {\n    background: ", ";\n}\ninput[type=range].guify-range::-ms-thumb {\n    width: 10px;\n    border-radius: 0px;\n    background: ", ";\n    cursor: ew-resize;\n    height: ", ";\n}\ninput[type=range].guify-range:focus::-ms-fill-lower {\n    background: ", ";\n    outline: none;\n}\ninput[type=range].guify-range:focus::-ms-fill-upper {\n    background: ", ";\n    outline: none;\n}\n\n"]);
+    }(["\n\ninput[type=range].sunrisify-range {\n    -webkit-appearance: none;\n    width: 100%;\n    height: ", ";\n    margin: 0px 0;\n    padding: 0;\n    display: inline-block;\n}\n\n/* Remove outlines since we'll be adding our own */\ninput[type=range].sunrisify-range:focus {\n    outline: none;\n}\ninput[type=range].sunrisify-range::-moz-focus-outer {\n    border: 0;\n}\n\n/* Webkit */\ninput[type=range].sunrisify-range::-webkit-slider-runnable-track {\n    width: 100%;\n    height: ", ";\n    cursor: ew-resize;\n    background: ", ";\n}\ninput[type=range].sunrisify-range::-webkit-slider-thumb {\n    height: ", ";\n    width: 10px;\n    background: ", ";\n    cursor: ew-resize;\n    -webkit-appearance: none;\n    margin-top: 0px;\n}\ninput[type=range].sunrisify-range:focus::-webkit-slider-runnable-track {\n    background: ", ";\n    outline: none;\n}\n\n/* Gecko */\ninput[type=range].sunrisify-range::-moz-range-track {\n    width: 100%;\n    height: ", ";\n    cursor: ew-resize;\n    background: ", ";\n}\ninput[type=range].sunrisify-range:focus::-moz-range-track {\n    background: ", ";\n}\ninput[type=range].sunrisify-range::-moz-range-thumb {\n    height: ", ";\n    width: 10px;\n    background: ", ";\n    cursor: ew-resize;\n    border: none;\n    border-radius: 0;\n}\n\n/* IE */\ninput[type=range].sunrisify-range::-ms-track {\n    width: 100%;\n    height: ", ";\n    cursor: ew-resize;\n    background: transparent;\n    border-color: transparent;\n    color: transparent;\n}\ninput[type=range].sunrisify-range::-ms-fill-lower {\n    background: ", ";\n}\ninput[type=range].sunrisify-range::-ms-fill-upper {\n    background: ", ";\n}\ninput[type=range].sunrisify-range:focus::-ms-fill-lower {\n    background: ", ";\n}\ninput[type=range].sunrisify-range:focus::-ms-fill-upper {\n    background: ", ";\n}\ninput[type=range].sunrisify-range::-ms-thumb {\n    width: 10px;\n    border-radius: 0px;\n    background: ", ";\n    cursor: ew-resize;\n    height: ", ";\n}\ninput[type=range].sunrisify-range:focus::-ms-fill-lower {\n    background: ", ";\n    outline: none;\n}\ninput[type=range].sunrisify-range:focus::-ms-fill-upper {\n    background: ", ";\n    outline: none;\n}\n\n"], ["\n\ninput[type=range].sunrisify-range {\n    -webkit-appearance: none;\n    width: 100%;\n    height: ", ";\n    margin: 0px 0;\n    padding: 0;\n    display: inline-block;\n}\n\n/* Remove outlines since we'll be adding our own */\ninput[type=range].sunrisify-range:focus {\n    outline: none;\n}\ninput[type=range].sunrisify-range::-moz-focus-outer {\n    border: 0;\n}\n\n/* Webkit */\ninput[type=range].sunrisify-range::-webkit-slider-runnable-track {\n    width: 100%;\n    height: ", ";\n    cursor: ew-resize;\n    background: ", ";\n}\ninput[type=range].sunrisify-range::-webkit-slider-thumb {\n    height: ", ";\n    width: 10px;\n    background: ", ";\n    cursor: ew-resize;\n    -webkit-appearance: none;\n    margin-top: 0px;\n}\ninput[type=range].sunrisify-range:focus::-webkit-slider-runnable-track {\n    background: ", ";\n    outline: none;\n}\n\n/* Gecko */\ninput[type=range].sunrisify-range::-moz-range-track {\n    width: 100%;\n    height: ", ";\n    cursor: ew-resize;\n    background: ", ";\n}\ninput[type=range].sunrisify-range:focus::-moz-range-track {\n    background: ", ";\n}\ninput[type=range].sunrisify-range::-moz-range-thumb {\n    height: ", ";\n    width: 10px;\n    background: ", ";\n    cursor: ew-resize;\n    border: none;\n    border-radius: 0;\n}\n\n/* IE */\ninput[type=range].sunrisify-range::-ms-track {\n    width: 100%;\n    height: ", ";\n    cursor: ew-resize;\n    background: transparent;\n    border-color: transparent;\n    color: transparent;\n}\ninput[type=range].sunrisify-range::-ms-fill-lower {\n    background: ", ";\n}\ninput[type=range].sunrisify-range::-ms-fill-upper {\n    background: ", ";\n}\ninput[type=range].sunrisify-range:focus::-ms-fill-lower {\n    background: ", ";\n}\ninput[type=range].sunrisify-range:focus::-ms-fill-upper {\n    background: ", ";\n}\ninput[type=range].sunrisify-range::-ms-thumb {\n    width: 10px;\n    border-radius: 0px;\n    background: ", ";\n    cursor: ew-resize;\n    height: ", ";\n}\ninput[type=range].sunrisify-range:focus::-ms-fill-lower {\n    background: ", ";\n    outline: none;\n}\ninput[type=range].sunrisify-range:focus::-ms-fill-upper {\n    background: ", ";\n    outline: none;\n}\n\n"]);
     var i = t(1);
     var r = t(3);
     var a = i.theme.colors.componentBackground;
@@ -3009,7 +3009,7 @@
         u.container = t(2)(e, o.label, a);
         t(5)(u.container, "", a);
         var l = u.container.appendChild(document.createElement("button"));
-        l.className = c["guify-button"];
+        l.className = c["sunrisify-button"];
         l.textContent = o.label;
         l.addEventListener("click", o.action);
         l.addEventListener("mouseup", function () {
@@ -3031,7 +3031,7 @@
           value: Object.freeze(n)
         }
       }));
-    }(["\n\n.guify-button {\n    box-sizing: border-box !important;\n    color: ", ";\n    background-color: ", ";\n\n    position: absolute;\n    text-align: center;\n    height: ", ";\n    line-height: ", ";\n    padding-top: 0px;\n    padding-bottom: 0px;\n    width: calc(100% - ", ");\n    border: none;\n    cursor: pointer;\n    right: 0;\n    font-family: inherit;\n}\n\n\n.guify-button:focus {\n    outline:none;\n}\n.guify-button::-moz-focus-inner {\n    border:0;\n}\n\n.guify-button:hover,\n.guify-button:focus {\n    color: ", ";\n    background-color: ", ";\n}\n\n.guify-button:active {\n    color: ", " !important;\n    background-color: ", " !important;\n}\n\n"], ["\n\n.guify-button {\n    box-sizing: border-box !important;\n    color: ", ";\n    background-color: ", ";\n\n    position: absolute;\n    text-align: center;\n    height: ", ";\n    line-height: ", ";\n    padding-top: 0px;\n    padding-bottom: 0px;\n    width: calc(100% - ", ");\n    border: none;\n    cursor: pointer;\n    right: 0;\n    font-family: inherit;\n}\n\n\n.guify-button:focus {\n    outline:none;\n}\n.guify-button::-moz-focus-inner {\n    border:0;\n}\n\n.guify-button:hover,\n.guify-button:focus {\n    color: ", ";\n    background-color: ", ";\n}\n\n.guify-button:active {\n    color: ", " !important;\n    background-color: ", " !important;\n}\n\n"]);
+    }(["\n\n.sunrisify-button {\n    box-sizing: border-box !important;\n    color: ", ";\n    background-color: ", ";\n\n    position: absolute;\n    text-align: center;\n    height: ", ";\n    line-height: ", ";\n    padding-top: 0px;\n    padding-bottom: 0px;\n    width: calc(100% - ", ");\n    border: none;\n    cursor: pointer;\n    right: 0;\n    font-family: inherit;\n}\n\n\n.sunrisify-button:focus {\n    outline:none;\n}\n.sunrisify-button::-moz-focus-inner {\n    border:0;\n}\n\n.sunrisify-button:hover,\n.sunrisify-button:focus {\n    color: ", ";\n    background-color: ", ";\n}\n\n.sunrisify-button:active {\n    color: ", " !important;\n    background-color: ", " !important;\n}\n\n"], ["\n\n.sunrisify-button {\n    box-sizing: border-box !important;\n    color: ", ";\n    background-color: ", ";\n\n    position: absolute;\n    text-align: center;\n    height: ", ";\n    line-height: ", ";\n    padding-top: 0px;\n    padding-bottom: 0px;\n    width: calc(100% - ", ");\n    border: none;\n    cursor: pointer;\n    right: 0;\n    font-family: inherit;\n}\n\n\n.sunrisify-button:focus {\n    outline:none;\n}\n.sunrisify-button::-moz-focus-inner {\n    border:0;\n}\n\n.sunrisify-button:hover,\n.sunrisify-button:focus {\n    color: ", ";\n    background-color: ", ";\n}\n\n.sunrisify-button:active {\n    color: ", " !important;\n    background-color: ", " !important;\n}\n\n"]);
     var i = t(1);
     var r = t(3);
     e.exports = r(o, i.theme.colors.textSecondary, i.theme.colors.componentBackground, i.theme.sizing.componentHeight, i.theme.sizing.componentHeight, i.theme.sizing.labelWidth, i.theme.colors.textHover, i.theme.colors.componentForeground, i.theme.colors.textActive, i.theme.colors.componentActive);
@@ -3123,7 +3123,7 @@
         u.input.id = "checkbox-" + o.label + s;
         u.input.type = "checkbox";
         u.input.checked = o.initial;
-        u.input.className = f["guify-checkbox"];
+        u.input.className = f["sunrisify-checkbox"];
         if (o.label) {
           u.input.setAttribute("aria-label", o.label);
         }
@@ -3161,7 +3161,7 @@
           value: Object.freeze(n)
         }
       }));
-    }(["\n\ninput[type=checkbox].guify-checkbox {\n    opacity: 0;\n    appearance: none;\n    -moz-appearance: none;\n    -webkit-appearance: none;\n    margin: 0;\n    border-radius: 0;\n    cursor: pointer;\n}\n\ninput[type=checkbox].guify-checkbox + label {\n    margin: 0;\n}\n\ninput[type=checkbox].guify-checkbox + label:before {\n    content: \"\";\n    display: inline-block;\n    width: ", ";\n    height: ", ";\n    padding: 0;\n    margin: 0;\n    vertical-align: middle;\n    background-color: ", ";\n    border-radius: 0px;\n    cursor: pointer;\n    box-sizing: content-box;\n    -moz-box-sizing: content-box;\n    -webkit-box-sizing: content-box;\n\n}\n\n/* Hover style */\ninput[type=checkbox].guify-checkbox:hover + label:before {\n    width: calc(", " - (", " * 2));\n    height: calc(", " - (", " * 2));\n    background-color: ", ";\n    border: solid 4px ", ";\n}\n\n/* Checked style */\ninput[type=checkbox]:checked.guify-checkbox + label:before {\n    width: calc(", " - (", " * 2));\n    height: calc(", " - (", " * 2));\n    background-color: ", ";\n    border: solid ", " ", ";\n}\n\n/* Focused and checked */\ninput[type=checkbox]:checked.guify-checkbox:focus + label:before {\n    width: calc(", " - (", " * 2));\n    height: calc(", " - (", " * 2));\n    background-color: ", ";\n    border: solid ", " ", ";\n}\n\n/* Focus and unchecked */\ninput[type=checkbox].guify-checkbox:focus + label:before {\n    background-color: ", ";\n}\n\n"], ["\n\ninput[type=checkbox].guify-checkbox {\n    opacity: 0;\n    appearance: none;\n    -moz-appearance: none;\n    -webkit-appearance: none;\n    margin: 0;\n    border-radius: 0;\n    cursor: pointer;\n}\n\ninput[type=checkbox].guify-checkbox + label {\n    margin: 0;\n}\n\ninput[type=checkbox].guify-checkbox + label:before {\n    content: \"\";\n    display: inline-block;\n    width: ", ";\n    height: ", ";\n    padding: 0;\n    margin: 0;\n    vertical-align: middle;\n    background-color: ", ";\n    border-radius: 0px;\n    cursor: pointer;\n    box-sizing: content-box;\n    -moz-box-sizing: content-box;\n    -webkit-box-sizing: content-box;\n\n}\n\n/* Hover style */\ninput[type=checkbox].guify-checkbox:hover + label:before {\n    width: calc(", " - (", " * 2));\n    height: calc(", " - (", " * 2));\n    background-color: ", ";\n    border: solid 4px ", ";\n}\n\n/* Checked style */\ninput[type=checkbox]:checked.guify-checkbox + label:before {\n    width: calc(", " - (", " * 2));\n    height: calc(", " - (", " * 2));\n    background-color: ", ";\n    border: solid ", " ", ";\n}\n\n/* Focused and checked */\ninput[type=checkbox]:checked.guify-checkbox:focus + label:before {\n    width: calc(", " - (", " * 2));\n    height: calc(", " - (", " * 2));\n    background-color: ", ";\n    border: solid ", " ", ";\n}\n\n/* Focus and unchecked */\ninput[type=checkbox].guify-checkbox:focus + label:before {\n    background-color: ", ";\n}\n\n"]);
+    }(["\n\ninput[type=checkbox].sunrisify-checkbox {\n    opacity: 0;\n    appearance: none;\n    -moz-appearance: none;\n    -webkit-appearance: none;\n    margin: 0;\n    border-radius: 0;\n    cursor: pointer;\n}\n\ninput[type=checkbox].sunrisify-checkbox + label {\n    margin: 0;\n}\n\ninput[type=checkbox].sunrisify-checkbox + label:before {\n    content: \"\";\n    display: inline-block;\n    width: ", ";\n    height: ", ";\n    padding: 0;\n    margin: 0;\n    vertical-align: middle;\n    background-color: ", ";\n    border-radius: 0px;\n    cursor: pointer;\n    box-sizing: content-box;\n    -moz-box-sizing: content-box;\n    -webkit-box-sizing: content-box;\n\n}\n\n/* Hover style */\ninput[type=checkbox].sunrisify-checkbox:hover + label:before {\n    width: calc(", " - (", " * 2));\n    height: calc(", " - (", " * 2));\n    background-color: ", ";\n    border: solid 4px ", ";\n}\n\n/* Checked style */\ninput[type=checkbox]:checked.sunrisify-checkbox + label:before {\n    width: calc(", " - (", " * 2));\n    height: calc(", " - (", " * 2));\n    background-color: ", ";\n    border: solid ", " ", ";\n}\n\n/* Focused and checked */\ninput[type=checkbox]:checked.sunrisify-checkbox:focus + label:before {\n    width: calc(", " - (", " * 2));\n    height: calc(", " - (", " * 2));\n    background-color: ", ";\n    border: solid ", " ", ";\n}\n\n/* Focus and unchecked */\ninput[type=checkbox].sunrisify-checkbox:focus + label:before {\n    background-color: ", ";\n}\n\n"], ["\n\ninput[type=checkbox].sunrisify-checkbox {\n    opacity: 0;\n    appearance: none;\n    -moz-appearance: none;\n    -webkit-appearance: none;\n    margin: 0;\n    border-radius: 0;\n    cursor: pointer;\n}\n\ninput[type=checkbox].sunrisify-checkbox + label {\n    margin: 0;\n}\n\ninput[type=checkbox].sunrisify-checkbox + label:before {\n    content: \"\";\n    display: inline-block;\n    width: ", ";\n    height: ", ";\n    padding: 0;\n    margin: 0;\n    vertical-align: middle;\n    background-color: ", ";\n    border-radius: 0px;\n    cursor: pointer;\n    box-sizing: content-box;\n    -moz-box-sizing: content-box;\n    -webkit-box-sizing: content-box;\n\n}\n\n/* Hover style */\ninput[type=checkbox].sunrisify-checkbox:hover + label:before {\n    width: calc(", " - (", " * 2));\n    height: calc(", " - (", " * 2));\n    background-color: ", ";\n    border: solid 4px ", ";\n}\n\n/* Checked style */\ninput[type=checkbox]:checked.sunrisify-checkbox + label:before {\n    width: calc(", " - (", " * 2));\n    height: calc(", " - (", " * 2));\n    background-color: ", ";\n    border: solid ", " ", ";\n}\n\n/* Focused and checked */\ninput[type=checkbox]:checked.sunrisify-checkbox:focus + label:before {\n    width: calc(", " - (", " * 2));\n    height: calc(", " - (", " * 2));\n    background-color: ", ";\n    border: solid ", " ", ";\n}\n\n/* Focus and unchecked */\ninput[type=checkbox].sunrisify-checkbox:focus + label:before {\n    background-color: ", ";\n}\n\n"]);
     var i = t(1);
     var r = t(3);
     e.exports = r(o, i.theme.sizing.componentHeight, i.theme.sizing.componentHeight, i.theme.colors.componentBackground, i.theme.sizing.componentHeight, "4px", i.theme.sizing.componentHeight, "4px", i.theme.colors.componentBackgroundHover, i.theme.colors.componentBackground, i.theme.sizing.componentHeight, "4px", i.theme.sizing.componentHeight, "4px", i.theme.colors.componentForeground, "4px", i.theme.colors.componentBackground, i.theme.sizing.componentHeight, "4px", i.theme.sizing.componentHeight, "4px", i.theme.colors.componentForeground, "4px", i.theme.colors.componentBackgroundHover, i.theme.colors.componentBackgroundHover);
@@ -3254,14 +3254,14 @@
         u.container = t(2)(e, r.label, a);
         t(5)(u.container, r.label, a);
         u.input = document.createElement("select");
-        u.input.className = l["guify-select-dropdown"];
+        u.input.className = l["sunrisify-select-dropdown"];
         if (r.label) {
           u.input.setAttribute("aria-label", r.label);
         }
         f = document.createElement("span");
-        f.classList.add(l["guify-select-triangle"], l["guify-select-triangle--down"]);
+        f.classList.add(l["sunrisify-select-triangle"], l["sunrisify-select-triangle--down"]);
         p = document.createElement("span");
-        p.classList.add(l["guify-select-triangle"], l["guify-select-triangle--up"]);
+        p.classList.add(l["sunrisify-select-triangle"], l["sunrisify-select-triangle--up"]);
         u.container.appendChild(f);
         u.container.appendChild(p);
         if (Array.isArray(r.options)) {
@@ -3293,12 +3293,12 @@
           u.emit("input", e.target.value);
         };
         function m() {
-          f.classList.add(l["guify-select-triangle--down-highlight"]);
-          p.classList.add(l["guify-select-triangle--up-highlight"]);
+          f.classList.add(l["sunrisify-select-triangle--down-highlight"]);
+          p.classList.add(l["sunrisify-select-triangle--up-highlight"]);
         }
         function y() {
-          f.classList.remove(l["guify-select-triangle--down-highlight"]);
-          p.classList.remove(l["guify-select-triangle--up-highlight"]);
+          f.classList.remove(l["sunrisify-select-triangle--down-highlight"]);
+          p.classList.remove(l["sunrisify-select-triangle--up-highlight"]);
         }
         var v = false;
         u.input.addEventListener("mouseover", m);
@@ -3342,7 +3342,7 @@
           value: Object.freeze(n)
         }
       }));
-    }(["\n\n.guify-select-dropdown {\n    display: inline-block;\n    position: absolute;\n    width: calc(100% - ", ");\n    padding-left: 1.5%;\n    height: ", ";\n    border: none;\n    border-radius: 0;\n    -webkit-appearance: none;\n    -moz-appearance: none;\n    -o-appearance:none;\n    appearance: none;\n    font-family: inherit;\n    background-color: ", ";\n    color: ", ";\n    box-sizing: border-box !important;\n    -moz-box-sizing: border-box !important;\n    -webkit-box-sizing: border-box !important;\n}\n\n/* Disable default outline since we're providing our own */\n.guify-select-dropdown:focus {\n    outline: none;\n}\n.guify-select-dropdown::-moz-focus-inner {\n    border: 0;\n}\n\n\n.guify-select-dropdown:focus,\n.guify-select-dropdown:hover {\n    color: ", ";\n    background-color: ", ";\n}\n\n.guify-select-dropdown::-ms-expand {\n    display:none;\n}\n.guify-select-triangle {\n    content: ' ';\n    border-right: 3px solid transparent;\n    border-left: 3px solid transparent;\n    line-height: ", ";\n    position: absolute;\n    right: 2.5%;\n    z-index: 1;\n    pointer-events: none;\n}\n\n.guify-select-triangle--up {\n    bottom: 55%;\n    border-bottom: 5px solid ", ";\n    border-top: 0px transparent;\n}\n\n.guify-select-triangle--down {\n    top: 55%;\n    border-top: 5px solid ", ";\n    border-bottom: 0px transparent;\n}\n\n.guify-select-triangle--up-highlight {\n    border-bottom-color: ", ";\n}\n\n.guify-select-triangle--down-highlight {\n    border-top-color: ", ";\n}\n\n"], ["\n\n.guify-select-dropdown {\n    display: inline-block;\n    position: absolute;\n    width: calc(100% - ", ");\n    padding-left: 1.5%;\n    height: ", ";\n    border: none;\n    border-radius: 0;\n    -webkit-appearance: none;\n    -moz-appearance: none;\n    -o-appearance:none;\n    appearance: none;\n    font-family: inherit;\n    background-color: ", ";\n    color: ", ";\n    box-sizing: border-box !important;\n    -moz-box-sizing: border-box !important;\n    -webkit-box-sizing: border-box !important;\n}\n\n/* Disable default outline since we're providing our own */\n.guify-select-dropdown:focus {\n    outline: none;\n}\n.guify-select-dropdown::-moz-focus-inner {\n    border: 0;\n}\n\n\n.guify-select-dropdown:focus,\n.guify-select-dropdown:hover {\n    color: ", ";\n    background-color: ", ";\n}\n\n.guify-select-dropdown::-ms-expand {\n    display:none;\n}\n.guify-select-triangle {\n    content: ' ';\n    border-right: 3px solid transparent;\n    border-left: 3px solid transparent;\n    line-height: ", ";\n    position: absolute;\n    right: 2.5%;\n    z-index: 1;\n    pointer-events: none;\n}\n\n.guify-select-triangle--up {\n    bottom: 55%;\n    border-bottom: 5px solid ", ";\n    border-top: 0px transparent;\n}\n\n.guify-select-triangle--down {\n    top: 55%;\n    border-top: 5px solid ", ";\n    border-bottom: 0px transparent;\n}\n\n.guify-select-triangle--up-highlight {\n    border-bottom-color: ", ";\n}\n\n.guify-select-triangle--down-highlight {\n    border-top-color: ", ";\n}\n\n"]);
+    }(["\n\n.sunrisify-select-dropdown {\n    display: inline-block;\n    position: absolute;\n    width: calc(100% - ", ");\n    padding-left: 1.5%;\n    height: ", ";\n    border: none;\n    border-radius: 0;\n    -webkit-appearance: none;\n    -moz-appearance: none;\n    -o-appearance:none;\n    appearance: none;\n    font-family: inherit;\n    background-color: ", ";\n    color: ", ";\n    box-sizing: border-box !important;\n    -moz-box-sizing: border-box !important;\n    -webkit-box-sizing: border-box !important;\n}\n\n/* Disable default outline since we're providing our own */\n.sunrisify-select-dropdown:focus {\n    outline: none;\n}\n.sunrisify-select-dropdown::-moz-focus-inner {\n    border: 0;\n}\n\n\n.sunrisify-select-dropdown:focus,\n.sunrisify-select-dropdown:hover {\n    color: ", ";\n    background-color: ", ";\n}\n\n.sunrisify-select-dropdown::-ms-expand {\n    display:none;\n}\n.sunrisify-select-triangle {\n    content: ' ';\n    border-right: 3px solid transparent;\n    border-left: 3px solid transparent;\n    line-height: ", ";\n    position: absolute;\n    right: 2.5%;\n    z-index: 1;\n    pointer-events: none;\n}\n\n.sunrisify-select-triangle--up {\n    bottom: 55%;\n    border-bottom: 5px solid ", ";\n    border-top: 0px transparent;\n}\n\n.sunrisify-select-triangle--down {\n    top: 55%;\n    border-top: 5px solid ", ";\n    border-bottom: 0px transparent;\n}\n\n.sunrisify-select-triangle--up-highlight {\n    border-bottom-color: ", ";\n}\n\n.sunrisify-select-triangle--down-highlight {\n    border-top-color: ", ";\n}\n\n"], ["\n\n.sunrisify-select-dropdown {\n    display: inline-block;\n    position: absolute;\n    width: calc(100% - ", ");\n    padding-left: 1.5%;\n    height: ", ";\n    border: none;\n    border-radius: 0;\n    -webkit-appearance: none;\n    -moz-appearance: none;\n    -o-appearance:none;\n    appearance: none;\n    font-family: inherit;\n    background-color: ", ";\n    color: ", ";\n    box-sizing: border-box !important;\n    -moz-box-sizing: border-box !important;\n    -webkit-box-sizing: border-box !important;\n}\n\n/* Disable default outline since we're providing our own */\n.sunrisify-select-dropdown:focus {\n    outline: none;\n}\n.sunrisify-select-dropdown::-moz-focus-inner {\n    border: 0;\n}\n\n\n.sunrisify-select-dropdown:focus,\n.sunrisify-select-dropdown:hover {\n    color: ", ";\n    background-color: ", ";\n}\n\n.sunrisify-select-dropdown::-ms-expand {\n    display:none;\n}\n.sunrisify-select-triangle {\n    content: ' ';\n    border-right: 3px solid transparent;\n    border-left: 3px solid transparent;\n    line-height: ", ";\n    position: absolute;\n    right: 2.5%;\n    z-index: 1;\n    pointer-events: none;\n}\n\n.sunrisify-select-triangle--up {\n    bottom: 55%;\n    border-bottom: 5px solid ", ";\n    border-top: 0px transparent;\n}\n\n.sunrisify-select-triangle--down {\n    top: 55%;\n    border-top: 5px solid ", ";\n    border-bottom: 0px transparent;\n}\n\n.sunrisify-select-triangle--up-highlight {\n    border-bottom-color: ", ";\n}\n\n.sunrisify-select-triangle--down-highlight {\n    border-top-color: ", ";\n}\n\n"]);
     var i = t(1);
     var r = t(3);
     e.exports = r(o, i.theme.sizing.labelWidth, i.theme.sizing.componentHeight, i.theme.colors.componentBackground, i.theme.colors.textSecondary, i.theme.colors.textHover, i.theme.colors.componentForeground, i.theme.sizing.componentHeight, i.theme.colors.textSecondary, i.theme.colors.textSecondary, i.theme.colors.textHover, i.theme.colors.textHover);
@@ -3431,7 +3431,7 @@
         t(5)(u.container, o.label, a);
         u.input = u.container.appendChild(document.createElement("input"));
         u.input.type = "text";
-        u.input.className = "guify-text";
+        u.input.className = "sunrisify-text";
         if (o.initial) {
           u.input.value = o.initial;
         }
@@ -3580,7 +3580,7 @@
         u.container = t(2)(e, o.label, a);
         t(5)(u.container, o.label, a);
         var l = u.container.appendChild(document.createElement("span"));
-        l.className = "guify-color-" + s;
+        l.className = "sunrisify-color-" + s;
         var c = t(6)(u.container, "", a, "calc(100% - " + a.sizing.labelWidth + " - 12% - 0.5em)");
         c.setAttribute("readonly", "true");
         l.onmouseover = function () {
@@ -4384,7 +4384,7 @@
         o(this, e);
         this.opts = i;
         this.container = t(2)(n, i.label, r);
-        this.container.classList.add(s["guify-folder"]);
+        this.container.classList.add(s["sunrisify-folder"]);
         this.container.setAttribute("role", "button");
         this.container.setAttribute("tabIndex", "0");
         this.arrow = this.container.appendChild(document.createElement("div"));
@@ -4406,7 +4406,7 @@
           }
         });
         this.folderContainer = n.appendChild(document.createElement("div"));
-        this.folderContainer.classList.add(s["guify-folder-contents"]);
+        this.folderContainer.classList.add(s["sunrisify-folder-contents"]);
         this.open = this.opts.open || false;
         this.SetOpen(this.open);
       }
@@ -4421,10 +4421,10 @@
         value: function (e) {
           this.open = e;
           if (e) {
-            this.folderContainer.classList.remove(s["guify-folder-closed"]);
+            this.folderContainer.classList.remove(s["sunrisify-folder-closed"]);
             this.arrow.innerHTML = "&#9662;";
           } else {
-            this.folderContainer.classList.add(s["guify-folder-closed"]);
+            this.folderContainer.classList.add(s["sunrisify-folder-closed"]);
             this.arrow.innerHTML = "&#9656;";
           }
         }
@@ -4442,7 +4442,7 @@
           value: Object.freeze(n)
         }
       }));
-    }(["\n\n.guify-folder {\n    cursor: pointer;\n    padding-left: 0.5em;\n    color: ", ";\n}\n\n.guify-folder div {\n    display: inline-block;\n    vertical-align: sub;\n    line-height: calc(", " + 5px);\n}\n\n.guify-folder:hover,\n.guify-folder:focus {\n    color: ", ";\n    background-color: ", ";\n    outline: none;\n}\n\n\n.guify-folder-contents {\n    display: block;\n    box-sizing: border-box;\n    padding-left: 14px;\n    margin-bottom: 5px;\n    border-left: 2px solid ", ";\n}\n\n.guify-folder-contents.guify-folder-closed {\n    height: 0;\n    display: none;\n}\n\n\n"], ["\n\n.guify-folder {\n    cursor: pointer;\n    padding-left: 0.5em;\n    color: ", ";\n}\n\n.guify-folder div {\n    display: inline-block;\n    vertical-align: sub;\n    line-height: calc(", " + 5px);\n}\n\n.guify-folder:hover,\n.guify-folder:focus {\n    color: ", ";\n    background-color: ", ";\n    outline: none;\n}\n\n\n.guify-folder-contents {\n    display: block;\n    box-sizing: border-box;\n    padding-left: 14px;\n    margin-bottom: 5px;\n    border-left: 2px solid ", ";\n}\n\n.guify-folder-contents.guify-folder-closed {\n    height: 0;\n    display: none;\n}\n\n\n"]);
+    }(["\n\n.sunrisify-folder {\n    cursor: pointer;\n    padding-left: 0.5em;\n    color: ", ";\n}\n\n.sunrisify-folder div {\n    display: inline-block;\n    vertical-align: sub;\n    line-height: calc(", " + 5px);\n}\n\n.sunrisify-folder:hover,\n.sunrisify-folder:focus {\n    color: ", ";\n    background-color: ", ";\n    outline: none;\n}\n\n\n.sunrisify-folder-contents {\n    display: block;\n    box-sizing: border-box;\n    padding-left: 14px;\n    margin-bottom: 5px;\n    border-left: 2px solid ", ";\n}\n\n.sunrisify-folder-contents.sunrisify-folder-closed {\n    height: 0;\n    display: none;\n}\n\n\n"], ["\n\n.sunrisify-folder {\n    cursor: pointer;\n    padding-left: 0.5em;\n    color: ", ";\n}\n\n.sunrisify-folder div {\n    display: inline-block;\n    vertical-align: sub;\n    line-height: calc(", " + 5px);\n}\n\n.sunrisify-folder:hover,\n.sunrisify-folder:focus {\n    color: ", ";\n    background-color: ", ";\n    outline: none;\n}\n\n\n.sunrisify-folder-contents {\n    display: block;\n    box-sizing: border-box;\n    padding-left: 14px;\n    margin-bottom: 5px;\n    border-left: 2px solid ", ";\n}\n\n.sunrisify-folder-contents.sunrisify-folder-closed {\n    height: 0;\n    display: none;\n}\n\n\n"]);
     var i = t(1);
     var r = t(3);
     e.exports = r(o, i.theme.colors.textPrimary, i.theme.sizing.componentHeight, i.theme.colors.textHover, i.theme.colors.componentForeground, i.theme.colors.componentBackground);
@@ -4532,7 +4532,7 @@
         u.file = null;
         u.fileName = null;
         u.container = t(2)(e, o.label, a);
-        u.container.classList.add(p["guify-file-container"]);
+        u.container.classList.add(p["sunrisify-file-container"]);
         u.container.setAttribute("role", "button");
         u.container.setAttribute("tabIndex", "0");
         (0, f.default)(u.container, {
@@ -4575,17 +4575,17 @@
         u.container.addEventListener("dragover", function (e) {
           e.preventDefault();
           e.stopPropagation();
-          u.container.classList.add(p["guify-dragover"]);
+          u.container.classList.add(p["sunrisify-dragover"]);
         });
         u.container.addEventListener("dragleave", function (e) {
           e.preventDefault();
           e.stopPropagation();
-          u.container.classList.remove(p["guify-dragover"]);
+          u.container.classList.remove(p["sunrisify-dragover"]);
         });
         u.container.addEventListener("drop", function (e) {
           e.preventDefault();
           e.stopPropagation();
-          u.container.classList.remove(p["guify-dragover"]);
+          u.container.classList.remove(p["sunrisify-dragover"]);
           h(e);
         });
         u.container.onclick = function () {
@@ -4624,7 +4624,7 @@
           value: Object.freeze(n)
         }
       }));
-    }(["\n\n.guify-file-container {\n    display: inline-block;\n    outline: none;\n    padding-top: 8px;\n    padding-bottom: 8px;\n    color: ", ";\n    background-color: ", ";\n}\n\n.guify-file-container:hover,\n.guify-file-container:focus {\n    color: ", ";\n    background-color: ", ";\n}\n\n.guify-file-container:active {\n    color: ", " !important;\n    background-color: ", " !important;\n}\n\n.guify-dragover {\n    background-color: ", ";\n    box-shadow: inset 0 0 0 3px ", ";\n}\n\n\n"], ["\n\n.guify-file-container {\n    display: inline-block;\n    outline: none;\n    padding-top: 8px;\n    padding-bottom: 8px;\n    color: ", ";\n    background-color: ", ";\n}\n\n.guify-file-container:hover,\n.guify-file-container:focus {\n    color: ", ";\n    background-color: ", ";\n}\n\n.guify-file-container:active {\n    color: ", " !important;\n    background-color: ", " !important;\n}\n\n.guify-dragover {\n    background-color: ", ";\n    box-shadow: inset 0 0 0 3px ", ";\n}\n\n\n"]);
+    }(["\n\n.sunrisify-file-container {\n    display: inline-block;\n    outline: none;\n    padding-top: 8px;\n    padding-bottom: 8px;\n    color: ", ";\n    background-color: ", ";\n}\n\n.sunrisify-file-container:hover,\n.sunrisify-file-container:focus {\n    color: ", ";\n    background-color: ", ";\n}\n\n.sunrisify-file-container:active {\n    color: ", " !important;\n    background-color: ", " !important;\n}\n\n.sunrisify-dragover {\n    background-color: ", ";\n    box-shadow: inset 0 0 0 3px ", ";\n}\n\n\n"], ["\n\n.sunrisify-file-container {\n    display: inline-block;\n    outline: none;\n    padding-top: 8px;\n    padding-bottom: 8px;\n    color: ", ";\n    background-color: ", ";\n}\n\n.sunrisify-file-container:hover,\n.sunrisify-file-container:focus {\n    color: ", ";\n    background-color: ", ";\n}\n\n.sunrisify-file-container:active {\n    color: ", " !important;\n    background-color: ", " !important;\n}\n\n.sunrisify-dragover {\n    background-color: ", ";\n    box-shadow: inset 0 0 0 3px ", ";\n}\n\n\n"]);
     var i = t(1);
     var r = t(3);
     e.exports = r(o, i.theme.colors.textPrimary, i.theme.colors.componentBackground, i.theme.colors.textHover, i.theme.colors.componentForeground, i.theme.colors.textActive, i.theme.colors.componentActive, i.theme.colors.componentBackground, i.theme.colors.componentForeground);
@@ -4804,9 +4804,9 @@
           throw new Error("Cannot specify both step and steps. Got step = " + o.step + ", steps = ", o.steps);
         }
         l.input = l.container.appendChild(document.createElement("span"));
-        l.input.className = g["guify-interval"];
+        l.input.className = g["sunrisify-interval"];
         l.handle = document.createElement("span");
-        l.handle.className = g["guify-interval-handle"];
+        l.handle.className = g["sunrisify-interval-handle"];
         l.input.appendChild(l.handle);
         if (!Array.isArray(o.initial)) {
           o.initial = [];
@@ -5018,7 +5018,7 @@
           value: Object.freeze(n)
         }
       }));
-    }(["\n.guify-interval {\n    -webkit-appearance: none;\n    position: absolute;\n    height: 20px;\n    margin: 0px 0;\n    width: 33%;\n    left: 54.5%;\n    background-color: ", ";\n    cursor: ew-resize;\n\n    -webkit-touch-callout: none;\n    -webkit-user-select: none;\n    -khtml-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n}\n.guify-interval-handle {\n    background-color: ", ";\n    position: absolute;\n    height: ", ";\n    min-width: 1px;\n}\n.guify-interval-handle:focus {\n    background: ", ";\n}\n"], ["\n.guify-interval {\n    -webkit-appearance: none;\n    position: absolute;\n    height: 20px;\n    margin: 0px 0;\n    width: 33%;\n    left: 54.5%;\n    background-color: ", ";\n    cursor: ew-resize;\n\n    -webkit-touch-callout: none;\n    -webkit-user-select: none;\n    -khtml-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n}\n.guify-interval-handle {\n    background-color: ", ";\n    position: absolute;\n    height: ", ";\n    min-width: 1px;\n}\n.guify-interval-handle:focus {\n    background: ", ";\n}\n"]);
+    }(["\n.sunrisify-interval {\n    -webkit-appearance: none;\n    position: absolute;\n    height: 20px;\n    margin: 0px 0;\n    width: 33%;\n    left: 54.5%;\n    background-color: ", ";\n    cursor: ew-resize;\n\n    -webkit-touch-callout: none;\n    -webkit-user-select: none;\n    -khtml-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n}\n.sunrisify-interval-handle {\n    background-color: ", ";\n    position: absolute;\n    height: ", ";\n    min-width: 1px;\n}\n.sunrisify-interval-handle:focus {\n    background: ", ";\n}\n"], ["\n.sunrisify-interval {\n    -webkit-appearance: none;\n    position: absolute;\n    height: 20px;\n    margin: 0px 0;\n    width: 33%;\n    left: 54.5%;\n    background-color: ", ";\n    cursor: ew-resize;\n\n    -webkit-touch-callout: none;\n    -webkit-user-select: none;\n    -khtml-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n}\n.sunrisify-interval-handle {\n    background-color: ", ";\n    position: absolute;\n    height: ", ";\n    min-width: 1px;\n}\n.sunrisify-interval-handle:focus {\n    background: ", ";\n}\n"]);
     var i = t(1);
     var r = t(3);
     var a = i.theme.colors.componentBackground;
@@ -5111,15 +5111,15 @@
         var a = r(this, (n.__proto__ || Object.getPrototypeOf(n)).call(this));
         var s = t(73);
         a.element = document.createElement("div");
-        a.element.className = s["guify-bar"];
+        a.element.className = s["sunrisify-bar"];
         e.appendChild(a.element);
         if (o.title) {
           var u = a.element.appendChild(document.createElement("div"));
-          u.className = s["guify-bar-title"];
+          u.className = s["sunrisify-bar-title"];
           u.innerHTML = o.title;
         }
         var c = a.element.appendChild(document.createElement("button"));
-        c.className = s["guify-bar-button"];
+        c.className = s["sunrisify-bar-button"];
         c.innerHTML = "Controls";
         (0, l.default)(c, {
           left: o.align == "left" ? "0" : "unset",
@@ -5130,7 +5130,7 @@
         };
         if (h.default.isEnabled) {
           var f = a.element.appendChild(document.createElement("button"));
-          f.className = s["guify-bar-button"];
+          f.className = s["sunrisify-bar-button"];
           f.innerHTML = "「\u3000」";
           f.setAttribute("aria-label", "Toggle Fullscreen");
           (0, l.default)(f, {
@@ -5161,7 +5161,7 @@
           value: Object.freeze(n)
         }
       }));
-    }(["\n\n.guify-bar {\n    background-color: ", ";\n    height: ", ";\n    width: 100%;\n    opacity: 1.0;\n    position: relative;\n    cursor: default;\n}\n\n.guify-bar-title {\n    color: ", ";\n    text-align: center;\n    width: 100%;\n    position: absolute;\n    top: 0;\n    line-height: ", ";\n    color: ", ";\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n}\n\n.guify-bar-button {\n    text-align: center;\n    border: none;\n    cursor: pointer;\n    font-family: inherit;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    color: ", ";\n    background-color: ", ";\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n    margin: 0;\n\n}\n\n/* Hide default accessibility outlines since we're providing our own visual feedback */\n.guify-bar-button:focus {\n    outline:none;\n}\n.guify-bar-button::-moz-focus-inner {\n    border:0;\n}\n\n.guify-bar-button:hover,\n.guify-bar-button:focus {\n    color: ", ";\n    background-color: ", ";\n}\n\n.guify-bar-button:active {\n    color: ", " !important;\n    background-color: ", " !important;\n}\n\n\n"], ["\n\n.guify-bar {\n    background-color: ", ";\n    height: ", ";\n    width: 100%;\n    opacity: 1.0;\n    position: relative;\n    cursor: default;\n}\n\n.guify-bar-title {\n    color: ", ";\n    text-align: center;\n    width: 100%;\n    position: absolute;\n    top: 0;\n    line-height: ", ";\n    color: ", ";\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n}\n\n.guify-bar-button {\n    text-align: center;\n    border: none;\n    cursor: pointer;\n    font-family: inherit;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    color: ", ";\n    background-color: ", ";\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n    margin: 0;\n\n}\n\n/* Hide default accessibility outlines since we're providing our own visual feedback */\n.guify-bar-button:focus {\n    outline:none;\n}\n.guify-bar-button::-moz-focus-inner {\n    border:0;\n}\n\n.guify-bar-button:hover,\n.guify-bar-button:focus {\n    color: ", ";\n    background-color: ", ";\n}\n\n.guify-bar-button:active {\n    color: ", " !important;\n    background-color: ", " !important;\n}\n\n\n"]);
+    }(["\n\n.sunrisify-bar {\n    background-color: ", ";\n    height: ", ";\n    width: 100%;\n    opacity: 1.0;\n    position: relative;\n    cursor: default;\n}\n\n.sunrisify-bar-title {\n    color: ", ";\n    text-align: center;\n    width: 100%;\n    position: absolute;\n    top: 0;\n    line-height: ", ";\n    color: ", ";\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n}\n\n.sunrisify-bar-button {\n    text-align: center;\n    border: none;\n    cursor: pointer;\n    font-family: inherit;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    color: ", ";\n    background-color: ", ";\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n    margin: 0;\n\n}\n\n/* Hide default accessibility outlines since we're providing our own visual feedback */\n.sunrisify-bar-button:focus {\n    outline:none;\n}\n.sunrisify-bar-button::-moz-focus-inner {\n    border:0;\n}\n\n.sunrisify-bar-button:hover,\n.sunrisify-bar-button:focus {\n    color: ", ";\n    background-color: ", ";\n}\n\n.sunrisify-bar-button:active {\n    color: ", " !important;\n    background-color: ", " !important;\n}\n\n\n"], ["\n\n.sunrisify-bar {\n    background-color: ", ";\n    height: ", ";\n    width: 100%;\n    opacity: 1.0;\n    position: relative;\n    cursor: default;\n}\n\n.sunrisify-bar-title {\n    color: ", ";\n    text-align: center;\n    width: 100%;\n    position: absolute;\n    top: 0;\n    line-height: ", ";\n    color: ", ";\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n}\n\n.sunrisify-bar-button {\n    text-align: center;\n    border: none;\n    cursor: pointer;\n    font-family: inherit;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    color: ", ";\n    background-color: ", ";\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n    margin: 0;\n\n}\n\n/* Hide default accessibility outlines since we're providing our own visual feedback */\n.sunrisify-bar-button:focus {\n    outline:none;\n}\n.sunrisify-bar-button::-moz-focus-inner {\n    border:0;\n}\n\n.sunrisify-bar-button:hover,\n.sunrisify-bar-button:focus {\n    color: ", ";\n    background-color: ", ";\n}\n\n.sunrisify-bar-button:active {\n    color: ", " !important;\n    background-color: ", " !important;\n}\n\n\n"]);
     var i = t(1);
     var r = t(3);
     e.exports = r(o, i.theme.colors.menuBarBackground, i.theme.sizing.menuBarHeight, i.theme.colors.text1, i.theme.sizing.menuBarHeight, i.theme.colors.menuBarText, i.theme.colors.textPrimary, i.theme.colors.componentBackground, i.theme.colors.textHover, i.theme.colors.componentForeground, i.theme.colors.textActive, i.theme.colors.componentActive);
@@ -5216,7 +5216,7 @@
         this.opts = i;
         this.styles = t(75);
         this.container = n.appendChild(document.createElement("div"));
-        this.container.className = this.styles["guify-panel-container"];
+        this.container.className = this.styles["sunrisify-panel-container"];
         (0, a.default)(this.container, {
           width: i.width,
           opacity: i.opacity || 1,
@@ -5233,7 +5233,7 @@
           this._MakeToggleButton();
         }
         this.panel = this.container.appendChild(document.createElement("div"));
-        this.panel.className = this.styles["guify-panel"];
+        this.panel.className = this.styles["sunrisify-panel"];
         if (i.barMode === "none" && i.title) {
           t(76)(this.panel, i.title, s.theme);
         }
@@ -5242,12 +5242,12 @@
         key: "SetVisible",
         value: function (e) {
           if (e) {
-            this.panel.classList.remove(this.styles["guify-panel-hidden"]);
+            this.panel.classList.remove(this.styles["sunrisify-panel-hidden"]);
             if (this.menuButton) {
               this.menuButton.setAttribute("alt", "Close GUI");
             }
           } else {
-            this.panel.classList.add(this.styles["guify-panel-hidden"]);
+            this.panel.classList.add(this.styles["sunrisify-panel-hidden"]);
             if (this.menuButton) {
               this.menuButton.setAttribute("alt", "Open GUI");
             }
@@ -5256,7 +5256,7 @@
       }, {
         key: "ToggleVisible",
         value: function () {
-          if (this.panel.classList.contains(this.styles["guify-panel-hidden"])) {
+          if (this.panel.classList.contains(this.styles["sunrisify-panel-hidden"])) {
             this.SetVisible(true);
           } else {
             this.SetVisible(false);
@@ -5267,7 +5267,7 @@
         value: function () {
           var e = this;
           this.menuButton = this.container.appendChild(document.createElement("button"));
-          this.menuButton.className = this.styles["guify-panel-toggle-button"];
+          this.menuButton.className = this.styles["sunrisify-panel-toggle-button"];
           (0, a.default)(this.menuButton, {
             left: this.opts.align == "left" ? "0px" : "unset",
             right: this.opts.align == "left" ? "unset" : "0px"
@@ -5292,7 +5292,7 @@
           value: Object.freeze(n)
         }
       }));
-    }(["\n\n.guify-panel-container {\n    position: absolute;\n    background: ", ";\n}\n\n.guify-panel {\n    padding: 14px;\n    /* Last component will have a margin, so reduce padding to account for this */\n    padding-bottom: calc(14px - ", ");\n\n    /* all: initial;  */\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n    cursor: default;\n    text-align: left;\n    box-sizing: border-box;\n}\n\n.guify-panel.guify-panel-hidden {\n    height: 0px;\n    display: none;\n}\n\n.guify-panel * {\n    box-sizing: initial;\n    -webkit-box-sizing: initial;\n    -moz-box-sizing: initial;\n}\n\n.guify-panel input {\n    font-family: 'Hack';\n    font-size: 11px;\n    display: inline;\n}\n\n.guify-panel a {\n    color: inherit;\n    text-decoration: none;\n}\n\n.guify-panel-toggle-button {\n    position: absolute;\n    top: 0;\n    margin: 0;\n    padding: 0;\n    width: 15px;\n    height: 15px;\n    line-height: 15px;\n    text-align: center;\n    border: none;\n    cursor: pointer;\n    font-family: inherit;\n    color: ", ";\n    background-color: ", ";\n\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n\n}\n\n/* Open/Close button styling */\n.guify-panel-toggle-button svg {\n    fill-opacity: 0;\n    stroke-width: 3;\n    stroke: ", ";\n}\n\n/* Remove browser default outlines since we're providing our own */\n.guify-panel-toggle-button:focus {\n    outline:none;\n}\n.guify-panel-toggle-button::-moz-focus-inner {\n    border: 0;\n}\n\n.guify-panel-toggle-button:hover,\n.guify-panel-toggle-button:focus {\n    color: ", ";\n    background-color: ", ";\n}\n\n.guify-panel-toggle-button:active {\n    color: ", ";\n    background-color: ", ";\n}\n\n"], ["\n\n.guify-panel-container {\n    position: absolute;\n    background: ", ";\n}\n\n.guify-panel {\n    padding: 14px;\n    /* Last component will have a margin, so reduce padding to account for this */\n    padding-bottom: calc(14px - ", ");\n\n    /* all: initial;  */\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n    cursor: default;\n    text-align: left;\n    box-sizing: border-box;\n}\n\n.guify-panel.guify-panel-hidden {\n    height: 0px;\n    display: none;\n}\n\n.guify-panel * {\n    box-sizing: initial;\n    -webkit-box-sizing: initial;\n    -moz-box-sizing: initial;\n}\n\n.guify-panel input {\n    font-family: 'Hack';\n    font-size: 11px;\n    display: inline;\n}\n\n.guify-panel a {\n    color: inherit;\n    text-decoration: none;\n}\n\n.guify-panel-toggle-button {\n    position: absolute;\n    top: 0;\n    margin: 0;\n    padding: 0;\n    width: 15px;\n    height: 15px;\n    line-height: 15px;\n    text-align: center;\n    border: none;\n    cursor: pointer;\n    font-family: inherit;\n    color: ", ";\n    background-color: ", ";\n\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n\n}\n\n/* Open/Close button styling */\n.guify-panel-toggle-button svg {\n    fill-opacity: 0;\n    stroke-width: 3;\n    stroke: ", ";\n}\n\n/* Remove browser default outlines since we're providing our own */\n.guify-panel-toggle-button:focus {\n    outline:none;\n}\n.guify-panel-toggle-button::-moz-focus-inner {\n    border: 0;\n}\n\n.guify-panel-toggle-button:hover,\n.guify-panel-toggle-button:focus {\n    color: ", ";\n    background-color: ", ";\n}\n\n.guify-panel-toggle-button:active {\n    color: ", ";\n    background-color: ", ";\n}\n\n"]);
+    }(["\n\n.sunrisify-panel-container {\n    position: absolute;\n    background: ", ";\n}\n\n.sunrisify-panel {\n    padding: 14px;\n    /* Last component will have a margin, so reduce padding to account for this */\n    padding-bottom: calc(14px - ", ");\n\n    /* all: initial;  */\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n    cursor: default;\n    text-align: left;\n    box-sizing: border-box;\n}\n\n.sunrisify-panel.sunrisify-panel-hidden {\n    height: 0px;\n    display: none;\n}\n\n.sunrisify-panel * {\n    box-sizing: initial;\n    -webkit-box-sizing: initial;\n    -moz-box-sizing: initial;\n}\n\n.sunrisify-panel input {\n    font-family: 'Hack';\n    font-size: 11px;\n    display: inline;\n}\n\n.sunrisify-panel a {\n    color: inherit;\n    text-decoration: none;\n}\n\n.sunrisify-panel-toggle-button {\n    position: absolute;\n    top: 0;\n    margin: 0;\n    padding: 0;\n    width: 15px;\n    height: 15px;\n    line-height: 15px;\n    text-align: center;\n    border: none;\n    cursor: pointer;\n    font-family: inherit;\n    color: ", ";\n    background-color: ", ";\n\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n\n}\n\n/* Open/Close button styling */\n.sunrisify-panel-toggle-button svg {\n    fill-opacity: 0;\n    stroke-width: 3;\n    stroke: ", ";\n}\n\n/* Remove browser default outlines since we're providing our own */\n.sunrisify-panel-toggle-button:focus {\n    outline:none;\n}\n.sunrisify-panel-toggle-button::-moz-focus-inner {\n    border: 0;\n}\n\n.sunrisify-panel-toggle-button:hover,\n.sunrisify-panel-toggle-button:focus {\n    color: ", ";\n    background-color: ", ";\n}\n\n.sunrisify-panel-toggle-button:active {\n    color: ", ";\n    background-color: ", ";\n}\n\n"], ["\n\n.sunrisify-panel-container {\n    position: absolute;\n    background: ", ";\n}\n\n.sunrisify-panel {\n    padding: 14px;\n    /* Last component will have a margin, so reduce padding to account for this */\n    padding-bottom: calc(14px - ", ");\n\n    /* all: initial;  */\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n    cursor: default;\n    text-align: left;\n    box-sizing: border-box;\n}\n\n.sunrisify-panel.sunrisify-panel-hidden {\n    height: 0px;\n    display: none;\n}\n\n.sunrisify-panel * {\n    box-sizing: initial;\n    -webkit-box-sizing: initial;\n    -moz-box-sizing: initial;\n}\n\n.sunrisify-panel input {\n    font-family: 'Hack';\n    font-size: 11px;\n    display: inline;\n}\n\n.sunrisify-panel a {\n    color: inherit;\n    text-decoration: none;\n}\n\n.sunrisify-panel-toggle-button {\n    position: absolute;\n    top: 0;\n    margin: 0;\n    padding: 0;\n    width: 15px;\n    height: 15px;\n    line-height: 15px;\n    text-align: center;\n    border: none;\n    cursor: pointer;\n    font-family: inherit;\n    color: ", ";\n    background-color: ", ";\n\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n\n}\n\n/* Open/Close button styling */\n.sunrisify-panel-toggle-button svg {\n    fill-opacity: 0;\n    stroke-width: 3;\n    stroke: ", ";\n}\n\n/* Remove browser default outlines since we're providing our own */\n.sunrisify-panel-toggle-button:focus {\n    outline:none;\n}\n.sunrisify-panel-toggle-button::-moz-focus-inner {\n    border: 0;\n}\n\n.sunrisify-panel-toggle-button:hover,\n.sunrisify-panel-toggle-button:focus {\n    color: ", ";\n    background-color: ", ";\n}\n\n.sunrisify-panel-toggle-button:active {\n    color: ", ";\n    background-color: ", ";\n}\n\n"]);
     var i = t(1);
     var r = t(3);
     e.exports = r(o, i.theme.colors.panelBackground, i.theme.sizing.componentSpacing, i.theme.colors.textPrimary, i.theme.colors.componentBackground, i.theme.colors.componentForeground, i.theme.colors.textHover, i.theme.colors.componentForeground, i.theme.colors.textActive, i.theme.colors.componentActive);
@@ -5376,7 +5376,7 @@
         this.opts = i;
         this.styles = t(78);
         this.element = n.appendChild(document.createElement("div"));
-        this.element.classList.add(this.styles["guify-toast-area"]);
+        this.element.classList.add(this.styles["sunrisify-toast-area"]);
         (0, a.default)(this.element, {
           position: "absolute",
           width: "100%"
@@ -5387,13 +5387,13 @@
         value: function (e, n = 5000, t = 0) {
           console.log("[Toast] " + e);
           var o = this.element.appendChild(document.createElement("div"));
-          o.classList.add(this.styles["guify-toast-notification"]);
+          o.classList.add(this.styles["sunrisify-toast-notification"]);
           o.setAttribute("aria-live", "polite");
           o.innerHTML = e;
           (0, a.default)(o, {});
           var i = o.appendChild(document.createElement("button"));
           i.innerHTML = "&#10006;";
-          i.classList.add(this.styles["guify-toast-close-button"]);
+          i.classList.add(this.styles["sunrisify-toast-close-button"]);
           var r = undefined;
           function s() {
             o.blur();
@@ -5422,7 +5422,7 @@
           value: Object.freeze(n)
         }
       }));
-    }(["\n\n.guify-toast-notification {\n    box-sizing: border-box;\n    color: theme.colors.text1;\n    position: relative;\n    width: 100%;\n    /* height: 20px; */\n    padding: 8px;\n    padding-left: 20px;\n    padding-right: 20px;\n    text-align: center;\n    font-family: 'Hack', monospace;\n    font-size: 11px;\n}\n\n.guify-toast-area .guify-toast-notification:nth-child(odd) {\n    color: ", ";\n    background-color: ", ";\n}\n\n.guify-toast-area .guify-toast-notification:nth-child(even) {\n    color: ", ";\n    background-color: ", ";\n}\n\n.guify-toast-close-button {\n    color: ", ";\n    background: transparent;\n    position: absolute;\n    textAlign: center;\n    margin-top: auto;\n    margin-bottom: auto;\n    border: none;\n    cursor: pointer;\n    top: 0;\n    bottom: 0;\n    right: 8px;\n}\n\n"], ["\n\n.guify-toast-notification {\n    box-sizing: border-box;\n    color: theme.colors.text1;\n    position: relative;\n    width: 100%;\n    /* height: 20px; */\n    padding: 8px;\n    padding-left: 20px;\n    padding-right: 20px;\n    text-align: center;\n    font-family: 'Hack', monospace;\n    font-size: 11px;\n}\n\n.guify-toast-area .guify-toast-notification:nth-child(odd) {\n    color: ", ";\n    background-color: ", ";\n}\n\n.guify-toast-area .guify-toast-notification:nth-child(even) {\n    color: ", ";\n    background-color: ", ";\n}\n\n.guify-toast-close-button {\n    color: ", ";\n    background: transparent;\n    position: absolute;\n    textAlign: center;\n    margin-top: auto;\n    margin-bottom: auto;\n    border: none;\n    cursor: pointer;\n    top: 0;\n    bottom: 0;\n    right: 8px;\n}\n\n"]);
+    }(["\n\n.sunrisify-toast-notification {\n    box-sizing: border-box;\n    color: theme.colors.text1;\n    position: relative;\n    width: 100%;\n    /* height: 20px; */\n    padding: 8px;\n    padding-left: 20px;\n    padding-right: 20px;\n    text-align: center;\n    font-family: 'Hack', monospace;\n    font-size: 11px;\n}\n\n.sunrisify-toast-area .sunrisify-toast-notification:nth-child(odd) {\n    color: ", ";\n    background-color: ", ";\n}\n\n.sunrisify-toast-area .sunrisify-toast-notification:nth-child(even) {\n    color: ", ";\n    background-color: ", ";\n}\n\n.sunrisify-toast-close-button {\n    color: ", ";\n    background: transparent;\n    position: absolute;\n    textAlign: center;\n    margin-top: auto;\n    margin-bottom: auto;\n    border: none;\n    cursor: pointer;\n    top: 0;\n    bottom: 0;\n    right: 8px;\n}\n\n"], ["\n\n.sunrisify-toast-notification {\n    box-sizing: border-box;\n    color: theme.colors.text1;\n    position: relative;\n    width: 100%;\n    /* height: 20px; */\n    padding: 8px;\n    padding-left: 20px;\n    padding-right: 20px;\n    text-align: center;\n    font-family: 'Hack', monospace;\n    font-size: 11px;\n}\n\n.sunrisify-toast-area .sunrisify-toast-notification:nth-child(odd) {\n    color: ", ";\n    background-color: ", ";\n}\n\n.sunrisify-toast-area .sunrisify-toast-notification:nth-child(even) {\n    color: ", ";\n    background-color: ", ";\n}\n\n.sunrisify-toast-close-button {\n    color: ", ";\n    background: transparent;\n    position: absolute;\n    textAlign: center;\n    margin-top: auto;\n    margin-bottom: auto;\n    border: none;\n    cursor: pointer;\n    top: 0;\n    bottom: 0;\n    right: 8px;\n}\n\n"]);
     var i = t(1);
     var r = t(3);
     e.exports = r(o, i.theme.colors.textPrimary, i.theme.colors.panelBackground, i.theme.colors.textPrimary, i.theme.colors.menuBarBackground, i.theme.colors.textPrimary);
@@ -5435,7 +5435,7 @@
           value: Object.freeze(n)
         }
       }));
-    }(["\n\n.guify-container {\n    position: relative;\n    left: 0;\n    width: 100%;\n    font-size: 11px;\n    z-index: 9999;\n}\n\n"], ["\n\n.guify-container {\n    position: relative;\n    left: 0;\n    width: 100%;\n    font-size: 11px;\n    z-index: 9999;\n}\n\n"]);
+    }(["\n\n.sunrisify-container {\n    position: relative;\n    left: 0;\n    width: 100%;\n    font-size: 11px;\n    z-index: 9999;\n}\n\n"], ["\n\n.sunrisify-container {\n    position: relative;\n    left: 0;\n    width: 100%;\n    font-size: 11px;\n    z-index: 9999;\n}\n\n"]);
     t(1);
     var i = t(3);
     e.exports = i(o);
